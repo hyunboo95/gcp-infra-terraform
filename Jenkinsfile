@@ -12,6 +12,7 @@ pipeline {
             steps {
                 script {
                     checkout scm
+                    echo "=================checkout scm================="
                 }
             }
         }
